@@ -1,0 +1,17 @@
+C:\Users\aamir\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp\bin\Debug\netstandard1.4\TravelRecordApp.deps.json
+C:\Users\aamir\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp\bin\Debug\netstandard1.4\TravelRecordApp.dll
+C:\Users\aamir\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp\bin\Debug\netstandard1.4\TravelRecordApp.pdb
+C:\Users\aamir\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp\obj\Debug\netstandard1.4\TravelRecordApp.csproj.CoreCompileInputs.cache
+C:\Users\aamir\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp\obj\Debug\netstandard1.4\TravelRecordApp.App.xaml.g.cs
+C:\Users\aamir\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp\obj\Debug\netstandard1.4\TravelRecordApp.HistoryPage.xaml.g.cs
+C:\Users\aamir\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp\obj\Debug\netstandard1.4\TravelRecordApp.HomePage.xaml.g.cs
+C:\Users\aamir\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp\obj\Debug\netstandard1.4\TravelRecordApp.MainPage.xaml.g.cs
+C:\Users\aamir\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp\obj\Debug\netstandard1.4\TravelRecordApp.MapPage.xaml.g.cs
+C:\Users\aamir\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp\obj\Debug\netstandard1.4\TravelRecordApp.NewTravelPage.xaml.g.cs
+C:\Users\aamir\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp\obj\Debug\netstandard1.4\TravelRecordApp.ProfilePage.xaml.g.cs
+C:\Users\aamir\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp\obj\Debug\netstandard1.4\TravelRecordApp.AssemblyInfoInputs.cache
+C:\Users\aamir\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp\obj\Debug\netstandard1.4\TravelRecordApp.AssemblyInfo.cs
+C:\Users\aamir\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp\obj\Debug\netstandard1.4\TravelRecordApp.dll
+C:\Users\aamir\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp\obj\Debug\netstandard1.4\TravelRecordApp.pdb
+C:\Users\aamir\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp\obj\Debug\netstandard1.4\TravelRecordApp.csprojAssemblyReference.cache
+C:\Users\aamir\source\repos\TravelRecordApp\TravelRecordApp\TravelRecordApp\obj\Debug\netstandard1.4\TravelRecordApp.RegisterPage.xaml.g.cs

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="TravelRecordApp.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:TravelRecordApp">
+
+    <StackLayout
+        x:Name="MainLayout"
+        Margin="20,0"
+        CompressedLayout.IsHeadless="True"
+        VerticalOptions="Center">
+
+        <Image
+            x:Name="LoginImage"
+            Margin="0,0,0,50"
+            Aspect="AspectFill"
+            HeightRequest="150"
+            HorizontalOptions="FillAndExpand" />
+        <Entry
+            x:Name="emailEntry"
+            Keyboard="Email"
+            Placeholder="Email address"
+            Text="{Binding Email, Mode=TwoWay}" />
+        <Entry
+            x:Name="passwordEntry"
+            IsPassword="True"
+            Placeholder="Password"
+            Text="{Binding Password, Mode=TwoWay}" />
+        <Button
+            x:Name="LoginBtn"
+            Margin="0,50,0,0"
+            Command="{Binding LoginCommand}"
+            CommandParameter="{Binding User}"
+            Style="{StaticResource NormalButton}"
+            Text="Log In" />
+
+        <Button
+            x:Name="RegisterUserBtn"
+            Command="{Binding RegisterNavigationCommand}"
+            HorizontalOptions="End"
+            Text="Register" />
+    </StackLayout>
+
+</ContentPage>

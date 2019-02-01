@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="TravelRecordApp.ProfilePage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <StackLayout Margin="20,50,20,0">
+            <Label
+                x:Name="PostCountLabel"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                Text="Welcome to Profile Page!"
+                TextColor="DodgerBlue" />
+            <Label
+                HorizontalOptions="Center"
+                Text="posts"
+                TextColor="LightGray" />
+
+            <ListView x:Name="CategoriesListView">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Detail="{Binding Path=Value}" Text="{Binding Path=Key}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

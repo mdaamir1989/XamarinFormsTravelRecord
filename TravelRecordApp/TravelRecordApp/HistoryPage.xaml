@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="TravelRecordApp.HistoryPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:converters="clr-namespace:TravelRecordApp.ViewModel.Converters">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:DateTimeToStringConverter x:Key="converter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ListView
+        x:Name="ExperienceList"
+        IsPullToRefreshEnabled="True"
+        ItemsSource="{Binding Posts}"
+        Refreshing="ExperienceList_Refreshing">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell Detail="{Binding CREATEDAT, Converter={StaticResource converter}}" Text="{Binding Experience}">
+                    <TextCell.ContextActions>
+                        <MenuItem
+                            Clicked="MenuItem_Clicked"
+                            CommandParameter="{Binding}"
+                            IsDestructive="True"
+                            Text="Delete" />
+                    </TextCell.ContextActions>
+                </TextCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>

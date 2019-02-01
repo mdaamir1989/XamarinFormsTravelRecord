@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application
+    x:Class="TravelRecordApp.App"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="BlueColor">#1E90FF</Color>
+            <Color x:Key="WhiteColor">#FFFFFF</Color>
+
+            <Style x:Key="NormalButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource BlueColor}" />
+                <Setter Property="TextColor" Value="{StaticResource WhiteColor}" />
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
